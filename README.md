@@ -7,3 +7,7 @@ To create a Landing Page with styles provided by The Odin Project curriculum. Co
 ## Goals
 
 To use basic HTML and CSS to put together a standard webpage and to practice flexbox.
+
+## Styles
+
+![Fonts and Styles](/images/02.png)
