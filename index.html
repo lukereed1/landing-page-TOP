@@ -6,20 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practice Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <div class="container">
-        <div class="header">
+    <main class="container">
+
+        <header class="header">
             <div class="logo">Cool Dogs</div>
             <nav class="navbar">
                 <ul>
-                    <li>About</li>
-                    <li>Sign up</li>
-                    <li>Contact us</li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Sign up</a></li>
+                    <li><a href="#">Contact us</a></li>
                 </ul>
             </nav>
-        </div>
+        </header>
 
         <section class="hero">
             <div class="hero-text">
@@ -30,30 +36,52 @@
             <img class="hero-img" src="/images/dog1.jpg" alt="Dog jumping in grass">
         </section>
 
-        <div class="content">
+        <section class="content">
             <h2>Meet the bois</h2>
-            <div class="dogs">
-                <div class="dog-group">
+            <div class="dogs-group">
+                <div class="dog">
                     <img src="/images/dog2.jpg" alt="Brown dog with white sunglasses">
                     <p>Silly Steve</p>
                 </div>
-                <div class="dog-group">
+                <div class="dog">
                     <img src="/images/dog3.jpg" alt="Black pug with oversized glasses">
                     <p>Perfect Pablo</p>
                 </div>
-                <div class="dog-group">
+                <div class="dog">
                     <img src="/images/dog4.jpg" alt="Big brown dog with glasses">
                     <p>Grump Gary</p>
                 </div>
-                <div class="dog-group">
+                <div class="dog">
                     <img src="/images/dog5.jpg" alt="Small dog with round sunglasses">
                     <p>Wacky Willow</p>
                 </div>
             </div>
-        </div>
+        </section>
 
+        <section class="quotes">
+            <div class="quote1">
+                <h3>"I'm all about that pug life."</h3>
+                <p>- Perfect Pablo</p>
+            </div>
+            <div class="quote2">
+                <h3>"Dogs do speak, but only those who know how to listen"</h3>
+                <p>- Grumpy Garry</p>
+            </div>
+        </section>
 
-    </div>
+        <section class="call-to-action">
+            <div class="text">
+                <h4>Want to see more?</h4>
+                <p>Sign up now for more good boi content</p>
+            </div>
+            <button>Sign Up</button>
+        </section>
+
+        <footer class="footer">
+            <p>Webpage by Luke Reed</p>
+            <p>In conjunction with the <a href="https://www.theodinproject.com">The Odin Project</a></p>
+        </footer>
+    </main>
 
 </body>
 
