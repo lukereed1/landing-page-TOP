@@ -1,8 +1,12 @@
 # The Odin Project - Landing Page
 
+## Live Preview
+
+https://lukereed1.github.io/landing-page-TOP
+
 ## General Info
 
-To create a Landing Page with styles provided by The Odin Project curriculum. Colors and Font styles have been provided. Images from Unsplash have been used.
+To create a Landing Page for The Odin Project curriculum. Colors and Font styles have been provided. Images from Unsplash have been used.
 
 ## Goals
 
