@@ -15,12 +15,18 @@ a:link {
 
 /* HEADER SECTION */
 .header {
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
 	background: #1f2937;
 	color: #f9faf8;
 	padding: 8px;
+	display: flex;
+	justify-content: center;
+}
+
+.nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-basis: 900px;
 }
 
 .logo {
@@ -141,6 +147,12 @@ a {
 }
 
 /* CALL TO ACTION SECTION */
+
+.call-to-action {
+	display: flex;
+	justify-content: center;
+}
+
 .c2a-box {
 	background: #3882f6;
 	display: flex;
@@ -149,6 +161,7 @@ a {
 	margin: 80px 160px;
 	padding: 40px 0;
 	border-radius: 25px;
+	flex-basis: 1040px;
 }
 
 .c2a-box h5 {
